@@ -1,0 +1,25 @@
+Static block is such kind of block in java which gets executed at the time of class loading.
+.class file into JVM memory.
+A.java
+javac
+A.class
+static block result display first infact instance block also.
+class A{
+    static{
+        
+    }
+}
+static block is executed only once at the time of class loading.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Instance block is same as method which has no name, it can be written inside a class only but not inside a method.
+It always executed before the constructor.
+We can use variable only inside instance block not method.
+We write time consuming code inside a instance block like - JDBC connectivity.
+Without creating an object it will not executed.
+class A{
+    {
+        // this is instance block which have no name.
+    }
+}
+
+

@@ -1,4 +1,4 @@
-package AllCoreTopicsExamples.OOPs;
+package AllCoreTopicsExamples.OOPs.Constructor;
 
 class A{
     int a; String b;

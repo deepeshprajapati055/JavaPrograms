@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Instance",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Instance_Static.Instance",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "StaticOne",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Instance_Static.StaticOne",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ConstOverload",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.ConstOverload",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Private",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Private",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "Copy",
             "request": "launch",
             "mainClass": "AllCoreTopicsExamples.OOPs.Copy",

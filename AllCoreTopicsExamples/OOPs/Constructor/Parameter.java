@@ -1,4 +1,4 @@
-package AllCoreTopicsExamples.OOPs;
+package AllCoreTopicsExamples.OOPs.Constructor;
 
 class Para{
     int x, y;

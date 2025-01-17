@@ -1,4 +1,4 @@
-package AllCoreTopicsExamples.OOPs;
+package AllCoreTopicsExamples.OOPs.Constructor;
 
 class Demo{
     int a = 10; String b = "Deepesh";

@@ -1,4 +1,4 @@
-package AllCoreTopicsExamples.OOPs;
+package AllCoreTopicsExamples.OOPs.Constructor;
 
 class Copy1{    
     int a; String b;        //instance variable of a as integer b as string.
