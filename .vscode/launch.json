@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Copy",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Copy",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Parameter",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Parameter",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Ex3",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Ex3",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Ex2",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Example_One",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Example_One",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ClassAndObject",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.ClassAndObject",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "TwoDimension",
             "request": "launch",
             "mainClass": "TwoDimension",
