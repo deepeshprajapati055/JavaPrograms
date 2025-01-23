@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HollowSquareStar",
+            "request": "launch",
+            "mainClass": "PatternPrograms.HollowSquareStar",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "PatternPrograms.Diamond",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "PyramidStartPattern",
+            "request": "launch",
+            "mainClass": "PatternPrograms.PyramidStartPattern",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "InvertedPyramidStartPattern",
+            "request": "launch",
+            "mainClass": "PatternPrograms.InvertedPyramidStartPattern",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "SquareStart",
+            "request": "launch",
+            "mainClass": "PatternPrograms.SquareStart",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "Instance",
             "request": "launch",
             "mainClass": "AllCoreTopicsExamples.OOPs.Instance_Static.Instance",
