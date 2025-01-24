@@ -1,0 +1,129 @@
+--------------------------------------------START------------------------------------------------
+Object Oriented Programming - It is a process of organizing the program in the terms of a collection of objects is a way of object-oriented programming, each of which represents an instance of the class.
+1. Class & Object
+2. Abstraction
+3. Encapsulation
+4. Data Hiding
+5. Inheritance
+6. Polymorphism
+7. Constructor
+
+Data Hiding - Outside person can't access our internal data directly or our internal data should not go out directly these oops feature is noting but data hiding. After proper validation and authentication outside person can access our internal data.
+By declaring data member(variable) as private we can achieve data hiding.
+    - private Integer id;
+    - private string name;
+The main advantage of data hiding is SECURITY.
+
+Abstraction - It is the process of hiding internal implementation and just highlighted set of service provided to the user is nothing but abstraction.
+Advantage -
+    -We can achieve security b/c we are not highlighting our internal implementation.
+    -Enhancement will become easy.
+    -It improves maintainability of the application.
+    -It improves Easiness to our system.
+By using Interface and abstract class we can implement abstraction.
+
+Encapsulation - The process of binding data member or corresponding method into a single unit is nothing but Encapsulation.
+If any component follows data hiding and abstraction such type of component is said to be encapsulated component.
+    - Encapsulation = Data Hiding + Abstraction
+Advantage - 
+    -We can achieve security.
+    -Enhancement will become easy.
+    -It improves maintainability of the application.
+Disadvantage - 
+    -It increase length of the code and slows down execution.
+
+Tightly-Encapsulated-Class : A class is said to be tightly encapsulated if and only if all the data member of that class is private whether class contain corresponding getter and setter method or not or whether these method declare as public or not these we are not required to check.
+If the parent class is not tightly encapsulated then no child is tightly encapsulated.
+
+Inheritance - It is the process of accessing one class property into another class. It is also known as Is-A relationship. The main advantage of Inheritance is code re-usability. By using extends keyword we can implement is-a relationship. It has five types.
+1. Single level Inheritance.
+2. Multi level Inheritance.
+3. Hierarchical Inheritance.
+4. Hybrid Inheritance - Hybrid Inheritance java is not support.
+5. Multiple Inheritance - Java is not support multiple Inheritance through class because a class can't extends more than one class at a time. There may be a chance of ambiguity problem that's why java won't provide support for multiple Inheritance.
+But Interface can extends any number of interface simultaneously that's why through Interface java provide support for multiple Inheritance.
+
+HAS-A relationship - Whenever an instance of one class is used in another class. Has-A relationship is also known as composition and aggregation. There is no specific keyword to implement has-a relationship but most of the time we depend on new keyword. The main advantage of HAS-A relationship is code re-usability.
+
+Composition - Without existing container object there is no chance of existing contained object then container and contained object are strongly associated and this strong association is nothing but composition.
+
+Aggregation - Without existing container object there is a chance of existing contained object then container and contained object are weakly associated and this weak association is nothing but aggregation.
+
+IS-A - If we want total functionality of a class automatically then we should go for IS-A relationship.
+HAS-A - If we want part of the functionality then we should go for HAS-A relationship.
+
+Method Signature- In java Method Signature consist of method names followed by argument type.
+    -public static int m1(int i, float f) ----> m1(int, float)
+    -return type is not a part of method signature in java.
+    -within a class two method with the same signature not allowed.
+        m1(int i) and m1(int x) ---> CE: m1(int) is already defined.
+
+Overloading - Two method is said to be overloaded if and only if both method having same and different argument type. 
+(or)
+A class can contain more than one method with same name different parameter type is know as overloading.
+Overloading is also known as early binding or static polymorphism or compile time polymorphism.
+Method resolution always takes care by compiler based on reference type object.
+    
+Overriding - Parent class defined method is by default available to the child if child class is not satisfied parent class method then child is responsible to redefined that method according to there need. this process is noting but overriding.
+parent class defined method is known as overridden method and child class defined method is known as overriding method. 
+Overriding is also know as runtime polymorphism or dynamic polymorphism or late binding.
+Method resolution is always takes care by jvm based on runtime object.
+While overriding we can't reduce the scope of access modifier but we can increase the scope.
+
+Method hiding - Both parent and child class should be static. Method resolution always takes care by compiler based on reference type. It is also known as early binding or static polymorphism or compile time polymorphism.
+
+Polymorphism - It is the process of having one name but multiple forms it is called as polymorphism. we can achieve polymorphism using two way one is overloading and overriding.
+ex- Water - solid, liquid, gas.
+	Shape - triangle, rectangle, square.
+	Sound - barking, roaring.
+
+When we should go for parent reference to hold child object?
+Answer: If we don't know exact runtime type of object then we should go for parent reference.
+
+Coupling - The degree of dependency b/w the component is called coupling. if dependency is more than it is considered as tightly coupling and if dependency is less then it is considered as loosely coupling.
+
+Cohesion - For every component a clear well defined functionality is required(defined) then that component is said to be followed high cohesion.
+Loosely coupling and High Cohesion are good programming practice.
+
+Static Block - Static block will be executed at the time of class loading Hence at the time of class loading if we want to perform any activity we have to define that inside static block.
+
+Instance Block - Instance block will be executed when we create an object and it is very useful when we want to perform some activity before initializing and object.
+
+In how many ways we can create an object in java? or In how many ways we can get an object in java?
+We can get an object in java using five ways:-
+    -1. By using new operator.
+    -2. By using clone() method.
+    -3. By using newInstance() method.
+    -4. By using Deserialization.
+    -5. By using factory method.
+
+Constructor - Once we create an object compulsory we should perform initialization then only the object is in position to respond properly.
+Whenever we are creating an object Constructor will be call automatically to perform initialization of an object.
+    -Name of the Constructor and name of the class must be matched.
+    -Return type concept not applicable for Constructor.
+    -The only applicable modifier for Constructor are private, public, protected, <default>.
+
+Default Constructor - Compiler is responsible to generated default constructor but not JVM. If we are not writing any constructor then only compiler will generate default constructor. Every class contain constructor may be default constructor or explicitly provided by programmer but not both simultaneously.
+
+Overloaded Constructor - Within a class we can declare multiple constructor and all these constructor having same name but different argument type. overloading concept is applicable for constructor.
+
+this - this keyword is the reference variable that refers to the current object.
+Uses of this keyword-
+    ⦁	this keyword can be used to refer current class instance variable.
+    ⦁	this keyword can be used to invoke current class method (implicitly).
+    ⦁	this() can be used to invoke current class constructor.	
+    ⦁	this can be used to pass as an argument in the method call.
+    ⦁	this can be used to pass as an argument in the constructor call.
+    ⦁	this can be used to return the current class instance from the method.
+
+super - Super keyword is a reference variable which is used to refer immediate parent class object.
+Uses of super keyword-
+    ⦁	Super keyword can be used to refer immediate parent class instance variable.
+    ⦁	Super keyword can be used to refer immediate parent class method.
+    ⦁	super() can be used to invoke parent class constructor.
+
+Singleton Class - For any java class if we are allowed to create only one object such type of class is called singleton class.
+ex - Runtime, Business delegate, ServiceLoader....etc
+If several people have same requirement then it is not recommended to create a separate object for every requirement. We have to create only one object and we can reuse same object for every similar requirement. so the performance and memory utilization will be improved. This is the central idea of singleton class.
+
+----------------------------------------------END------------------------------------------------

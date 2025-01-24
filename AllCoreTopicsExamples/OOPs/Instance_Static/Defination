@@ -10,6 +10,7 @@ class A{
     }
 }
 static block is executed only once at the time of class loading.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instance block is same as method which has no name, it can be written inside a class only but not inside a method.
 It always executed before the constructor.

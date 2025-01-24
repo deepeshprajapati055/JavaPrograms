@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Validation",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Encapsulation.Validation",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ExampleOne",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Encapsulation.ExampleOne",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "StaticOne",
+            "request": "launch",
+            "mainClass": "StaticOne",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Overriding",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Polymorphism.Overriding",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Overloading",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.OOPs.Polymorphism.Overloading",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "HollowSquareStar",
             "request": "launch",
             "mainClass": "PatternPrograms.HollowSquareStar",

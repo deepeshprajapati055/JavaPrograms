@@ -20,6 +20,7 @@ public class Copy {
         //create object one as r
         Copy1 r = new Copy1(); 
         //create object two as r2 and copy all the value of r into r2.
-        Copy1 r2 = new Copy1(r);        
+        Copy1 r2 = new Copy1(r);  
+        System.out.println(r2);      
     }
 }

@@ -28,4 +28,4 @@ public class Private {
 //todo - It will call directly by its class name.
 
 
-//todo if we define constructor as private then other class will restricted to created object of private constructor.
+//todo -(***) if we define constructor as private then other class will restricted to created object of private constructor.

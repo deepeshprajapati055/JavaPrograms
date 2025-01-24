@@ -1,5 +1,3 @@
-package AllCoreTopicsExamples.OOPs.Instance_Static;
-
 public class StaticOne {
     //todo - Example one.
     // static{
@@ -12,7 +10,10 @@ public class StaticOne {
 
 
     public static void main(String[] args){
-        StaticOne sc = new StaticOne();
+        //now only static block will call, if we uncomment line no 15 then instance block and constructor will call.
+        
+        // StaticOne obj = new StaticOne();    
+        
     }
     // Third - Constructor is calling.
     StaticOne(){
