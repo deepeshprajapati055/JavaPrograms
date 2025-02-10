@@ -1,5 +1,4 @@
 package StringPrograms;
-
 import java.util.Scanner;
 
 public class Practice {
@@ -12,4 +11,3 @@ public class Practice {
         sc.close();
     }
 }
-

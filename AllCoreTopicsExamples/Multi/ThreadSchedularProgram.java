@@ -32,7 +32,7 @@ public class ThreadSchedularProgram extends A{
 }
 
 /*
- * Thread life cycle.
+ * Thread Life Cycle.
  * New state - In this state we will create any thread object.
  * Runnable state - In this state we will call start() method of thread class.
  * Running state - In this state thread will execute its run() method.

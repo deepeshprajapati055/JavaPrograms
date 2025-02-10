@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpaceCount",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.SpaceCount",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "IsAliveProgram",
             "request": "launch",
             "mainClass": "AllCoreTopicsExamples.Multi.IsAliveProgram",
