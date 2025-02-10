@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IsAliveProgram",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Multi.IsAliveProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "StopProgram",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Multi.StopProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "YieldProgram",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Multi.YieldProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "JoinProgram",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Multi.JoinProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ThreadSchedularProgram",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Multi.ThreadSchedularProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "WhiteSpaces",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.WhiteSpaces",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLastWord",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.LengthOfLastWord",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "FirstOccurrences",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.FirstOccurrences",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "exceptionOne",
+            "request": "launch",
+            "mainClass": "Tricky.exceptionOne",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "RemoveJunk",
+            "request": "launch",
+            "mainClass": "StringPrograms.RemoveJunk",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList",
+            "request": "launch",
+            "mainClass": "AllCoreTopicsExamples.Collection.ArrayList",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "Validation",
             "request": "launch",
             "mainClass": "AllCoreTopicsExamples.OOPs.Encapsulation.Validation",

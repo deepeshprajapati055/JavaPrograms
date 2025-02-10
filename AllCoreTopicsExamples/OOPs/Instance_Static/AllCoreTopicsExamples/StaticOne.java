@@ -1,3 +1,4 @@
+package AllCoreTopicsExamples;
 public class StaticOne {
     //todo - Example one.
     // static{

@@ -1,4 +1,4 @@
-
+package AllCoreTopicsExamples.OOPs.Instance_Static;
 public class Instance {
     int a, b;
     static {
