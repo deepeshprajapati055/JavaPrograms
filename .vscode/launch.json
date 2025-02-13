@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestAndSmallest",
+            "request": "launch",
+            "mainClass": "ArrayPrograms.Important.LargestAndSmallest",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "SpaceAndLetters",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.SpaceAndLetters",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "SpaceCount",
             "request": "launch",
             "mainClass": "StringPrograms.IMP.SpaceCount",
