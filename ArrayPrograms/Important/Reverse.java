@@ -28,6 +28,8 @@ public class Reverse {
         sc.close();
     }*/
 
+    //------------------------------------------------------------------------
+
     //Second approach
     /*public static void main(String args){
         Scanner sc = new Scanner(System.in);
@@ -60,6 +62,8 @@ public class Reverse {
         }
         sc.close();
     }*/
+    
+    //------------------------------------------------------------------------
 
     //Best Approach
     //Time complexity - O(n).
