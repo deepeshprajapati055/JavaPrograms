@@ -1,6 +1,8 @@
-package ArrayPrograms;
+package ArrayPrograms.Important;
+
 import java.util.Scanner;
-public class Practice {
+
+public class ReversePointer {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size: ");
@@ -17,15 +19,20 @@ public class Practice {
         }
         System.out.println("]");
         
-        System.out.println("Sum: ");
-        int sum = sc.nextInt();
+        int left=0;
+        int right=arr.length-1;
+
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            left++;
+            right--;
+        }
 
         for(int i=0; i<arr.length; i++){
-            for(int j=i+1; j<arr.length; j++){
-                if(arr[i] + arr[j] == sum){
-                    System.out.println("Index at: "+ i + " and " +" Index at: "+j);
-                }
-            }
+            System.out.print(arr[i]+" ");
         }
         
         sc.close();

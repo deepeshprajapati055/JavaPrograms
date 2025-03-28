@@ -1,6 +1,8 @@
-package ArrayPrograms;
+package ArrayPrograms.Important;
+
 import java.util.Scanner;
-public class Practice {
+
+public class SumOfArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size: ");

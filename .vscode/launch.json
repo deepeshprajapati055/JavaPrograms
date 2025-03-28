@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveExtraSpaces",
+            "request": "launch",
+            "mainClass": "StringPrograms.RemoveExtraSpaces",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "CreationAppend",
+            "request": "launch",
+            "mainClass": "StringPrograms.StringBuffer.CreationAppend",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "SevenEightPattern",
+            "request": "launch",
+            "mainClass": "SevenEightPattern",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "LambdaProgram",
+            "request": "launch",
+            "mainClass": "Java8Features.Lambda.LambdaProgram",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "ArrayPrograms.Important.Practice",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "SumOfArray",
+            "request": "launch",
+            "mainClass": "ArrayPrograms.Important.SumOfArray",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "RemoveVowel",
+            "request": "launch",
+            "mainClass": "StringPrograms.RemoveVowel",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "ReversePointer",
+            "request": "launch",
+            "mainClass": "ArrayPrograms.Important.ReversePointer",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "StringPrograms.IMP.Palindrome",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "LeapYear",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
+            "name": "JsonString",
+            "request": "launch",
+            "mainClass": "Tricky.JsonString",
+            "projectName": "JavaPrograms_e3083999"
+        },
+        {
+            "type": "java",
             "name": "MovingZeros",
             "request": "launch",
             "mainClass": "ArrayPrograms.Important.MovingZeros",

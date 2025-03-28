@@ -1,16 +1,44 @@
 package StringPrograms;
 
-import java.util.Scanner;
-
 public class RemoveExtraSpaces {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a String: ");
+    public static void main(String[] args) {
+        String str = "   Hello   World!  This   is  Java.  ";
+        char[] chars = str.toCharArray(); // Convert string to char array
+        StringBuilder result = new StringBuilder();
         
+        boolean spaceFound = false;
 
-        sc.close();
+        // Loop through each character in the array
+        for (int i = 0; i < chars.length; i++) {
+            char currentChar = chars[i];
+
+            // Ignore leading spaces
+            if (result.length() == 0 && currentChar == ' ') {
+                continue;
+            }
+
+            // Handle multiple spaces
+            if (currentChar == ' ') {
+                if (!spaceFound) { // Add only one space
+                    result.append(currentChar);
+                }
+                spaceFound = true;
+            } else {
+                result.append(currentChar);
+                spaceFound = false;
+            }
+        }
+
+        // Remove trailing space manually
+        if (result.length() > 0 && result.charAt(result.length() - 1) == ' ') {
+            result.setLength(result.length() - 1);
+        }
+
+        System.out.println("Original: \"" + str + "\"");
+        System.out.println("Processed: \"" + result.toString() + "\"");
     }
 }
+
 
 
 
